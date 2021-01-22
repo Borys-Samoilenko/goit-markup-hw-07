@@ -313,10 +313,7 @@ summary {
   font-family: 'Roboto';
   font-weight: 900;
   font-style: bolder;
-  src: url(/fonts/roboto-v20-latin_cyrillic-900.eot);
   src: url(/fonts/roboto-v20-latin_cyrillic-900.ttf);
-  src: url(/fonts/roboto-v20-latin_cyrillic-900.woff);
-  src: url(/fonts/roboto-v20-latin_cyrillic-900.woff2);
 }
 
 .logo {
@@ -342,7 +339,7 @@ summary {
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1600px;
+  min-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
