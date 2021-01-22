@@ -1,0 +1,30 @@
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $primary-headers-color;
+  margin-bottom: 50px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.values {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+}
+
+.act {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 91px;
+  margin-bottom: 97px;
+}
+.act .section-title {
+  text-align: center;
+}

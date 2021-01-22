@@ -295,7 +295,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primaty-text-color);
+  color: var(--primary-text-color);
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -590,8 +590,10 @@ section.portfolio {
   fill: var(--primary-effect-color);
   border: 1px solid var(--primary-effect-color);
   border-radius: 4px;
+  box-shadow: 2px 3px 3px rgba(40, 67, 107, 0.42);
   transition: fill 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function);
 }
 
 .icon-item {
