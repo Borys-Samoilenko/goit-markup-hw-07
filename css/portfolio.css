@@ -339,7 +339,6 @@ summary {
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
   min-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -418,7 +417,7 @@ img {
 .conteiner {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -576,6 +575,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 1170px;
 }
 
 .samples .item {

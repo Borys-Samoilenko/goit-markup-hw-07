@@ -417,7 +417,7 @@ img {
 .conteiner {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -581,14 +581,18 @@ img {
 }
 
 .values {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 94px;
 }
 
+.clients {
+  margin: 94px auto;
+}
+
 .act {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 91px;
   margin-bottom: 97px;
 }
