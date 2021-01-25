@@ -1,7 +1,8 @@
 .footer {
+  display: flex;
+  justify-content: center;
   background-color: $primary-background-color;
   & .conteiner {
-    padding: 60px 15px;
     display: flex;
   }
 }

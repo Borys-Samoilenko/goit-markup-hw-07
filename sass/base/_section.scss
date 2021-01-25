@@ -8,27 +8,42 @@
   margin-top: 0;
   text-align: center;
 }
-
-.feature-list {
+header,
+section,
+footer {
+  // outline: 3px solid tomato;
   display: flex;
-}
+  justify-content: center;
 
-.values {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
+  min-width: 1200px;
+  padding: 94px 94px;
 }
 
-.clients {
-  margin: 94px auto;
+header {
+  padding: 0;
 }
+// .feature-list {
+//   display: flex;
+// }
 
-.act {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 91px;
-  margin-bottom: 97px;
-}
-.act .section-title {
-  text-align: center;
-}
+// .values {
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 94px;
+// }
+
+// .clients {
+//   margin: 94px auto;
+// }
+
+// .act {
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 91px;
+//   margin-bottom: 97px;
+// }
+// .act .section-title {
+//   text-align: center;
+// }

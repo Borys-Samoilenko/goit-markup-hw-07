@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  max-width: 1600px;
+  overflow-x: hidden;
 }
 
 .list {
@@ -70,7 +72,7 @@ img {
   margin-top: 0;
   text-align: center;
 }
-.clients,
-.portfolio {
-  margin: 94px 215px;
-}
+// .clients,
+// .portfolio {
+//   margin: 94px 215px;
+// }
