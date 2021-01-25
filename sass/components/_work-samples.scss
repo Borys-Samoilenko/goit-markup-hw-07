@@ -1,3 +1,21 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+.fl-conteiner {
+  display: flex;
+
+  height: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 34px;
+}
+
+.sample-conteiner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
 .filter-button {
   font-weight: 500;
   font-size: 16px;
@@ -25,7 +43,6 @@
 .filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .filteritem {

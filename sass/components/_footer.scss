@@ -4,6 +4,8 @@
   background-color: $primary-background-color;
   & .conteiner {
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 .adress p {
